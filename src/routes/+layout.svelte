@@ -3,9 +3,16 @@
   import "../app.scss";
 </script>
 
-<main class="wrapper">
-  <slot />
-</main>
+<svelte:head>
+  <title>Chloe Winkel</title>
+</svelte:head>
+
+<div class="wrapper">
+  <p>Header component here</p>
+  <main>
+    <slot />
+  </main>
+</div>
 
 <Footer />
 

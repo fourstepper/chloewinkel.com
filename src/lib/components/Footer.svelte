@@ -44,9 +44,8 @@
     width: 100%;
     hr {
       width: 100%;
-      opacity: 0.8;
+      opacity: 0.1;
       margin-bottom: 1rem;
-      color: getColor(green);
     }
     footer {
       display: flex;
