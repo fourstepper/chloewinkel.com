@@ -1,0 +1,7 @@
+# https://www.robotstxt.org/robotstxt.html
+User-agent: *
+Disallow: /
+
+# Disallow ChatGPT bot from scraping our website
+User-agent: GPTBot
+Disallow: /
