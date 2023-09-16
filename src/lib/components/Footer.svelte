@@ -38,13 +38,13 @@
     margin: 0;
   }
   .wrapper {
-    margin-bottom: 1rem;
+    margin-bottom: 0.5rem;
     margin-left: auto;
     margin-right: auto;
     width: 100%;
     hr {
       width: 100%;
-      opacity: 0.4;
+      opacity: 0.8;
       margin-bottom: 1rem;
       color: getColor(green);
     }

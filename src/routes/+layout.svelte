@@ -1,18 +1,16 @@
 <script>
   import Footer from "$lib/components/Footer.svelte";
-import "../app.scss";
+  import "../app.scss";
 </script>
 
-<div class="wrapper">
-  <main>
-    <slot />
-  </main>
-	<Footer/>
-</div>
+<main class="wrapper">
+  <slot />
+</main>
+
+<Footer />
 
 <style lang="scss">
   .wrapper {
-    gap: 1rem;
     margin-left: auto;
     margin-right: auto;
     max-width: 72rem;
