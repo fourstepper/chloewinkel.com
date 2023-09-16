@@ -1,7 +1,3 @@
-<script lang="ts">
-  import Footer from "$lib/components/Footer.svelte";
-</script>
-
 <h1>Chloe Winkel</h1>
 
 <h2>Welcome to my website!</h2>

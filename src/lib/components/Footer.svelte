@@ -1,4 +1,4 @@
-<script>
+<script lang="ts">
   const currentYear = new Date().getFullYear();
   import "@fortawesome/fontawesome-free/css/all.min.css";
 </script>
