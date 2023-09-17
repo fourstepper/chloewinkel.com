@@ -8,7 +8,6 @@
 </svelte:head>
 
 <div class="wrapper">
-  <p>Header component here</p>
   <main>
     <slot />
   </main>
@@ -18,10 +17,15 @@
 
 <style lang="scss">
   .wrapper {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    place-content: center;
     margin-left: auto;
     margin-right: auto;
     max-width: 72rem;
-    padding-left: 1rem;
-    padding-right: 1rem;
+  }
+  main {
+    width: 100%;
   }
 </style>

@@ -8,3 +8,6 @@ build:
 
 dev:
     npm run dev
+
+install:
+    bun install

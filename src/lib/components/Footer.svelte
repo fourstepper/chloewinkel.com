@@ -38,7 +38,6 @@
     margin: 0;
   }
   .wrapper {
-    margin-bottom: 0.5rem;
     margin-left: auto;
     margin-right: auto;
     width: 100%;
@@ -53,6 +52,7 @@
       text-align: center;
       align-items: center;
       column-gap: 1rem;
+      margin-bottom: 0.5rem;
       div {
         display: inherit;
         column-gap: inherit;
