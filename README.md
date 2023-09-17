@@ -24,8 +24,10 @@ just build
 just run
 ```
 
-## Legal notice
+## Legal
 
 The code of this site is MIT - see [LICENSE](LICENSE)
 
-The content and creative work on this site is licensed under Attribution-NonCommercial-NoDerivatives 4.0 International - see [LICENSE-CONTENT](LICENSE-CONTENT) - to learn more, visit https://creativecommons.org/licenses/by-nc-nd/4.0/
+The content and creative work on this site is [licensed](LICENSE-CONTENT) under Attribution-NonCommercial-NoDerivatives 4.0 International
+
+To learn more, visit https://creativecommons.org/licenses/by-nc-nd/4.0/
