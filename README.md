@@ -1,6 +1,6 @@
 # chloewinkel.com
 
-This repository is a SvelteKit project that runs https://chloewinkel.com.com.
+This repository is a SvelteKit project that runs https://chloewinkel.com (or rather, https://chloewinkel-v2.vercel.app/ for now)
 
 [![status-badge](https://ci.codeberg.org/api/badges/12599/status.svg)](https://ci.codeberg.org/repos/12599)
 
