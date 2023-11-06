@@ -40,6 +40,7 @@
   .wrapper {
     margin-left: auto;
     margin-right: auto;
+    margin-top: 2rem;
     width: 100%;
     hr {
       width: 100%;
