@@ -40,6 +40,15 @@
     <a href={box.href}>
       <div class="box">
         <div class="title">{box.title}</div>
+        <div class="description">{box.description}</div>
+        <div class="year-tag">{box.year}</div>
+        <img
+          class="arrow-up-right"
+          alt="An arrow pointing to to the top right corner of each box"
+          width="40px"
+          height="40px"
+          src="/assets/arrow-up-right.svg"
+        />
       </div>
     </a>
   {/each}
@@ -52,12 +61,20 @@
     flex-wrap: wrap;
     place-content: center;
     column-gap: 4rem;
-    row-gap: 1rem;
+    row-gap: 2rem;
+    margin-top: 4rem;
+    line-height: 1.2;
+  }
+  @media screen and (min-width: 1280px) {
+    .wrapper {
+      column-gap: 8rem;
+    }
   }
   .box {
+    position: relative;
     border-style: solid;
+    text-align: start;
     border-width: 2px;
-    display: relative;
     height: 18rem;
     width: 18rem;
   }
@@ -66,6 +83,35 @@
       height: 12rem;
       width: 12rem;
     }
+  }
+  .title {
+    position: absolute;
+    left: 1rem;
+    top: 0.5rem;
+    width: 9rem;
+    font-size: 1.5rem;
+  }
+  .description {
+    position: absolute;
+    bottom: 0.5rem;
+    left: 1rem;
+  }
+  .year-tag {
+    position: absolute;
+    right: -2.75rem;
+    bottom: 0.5rem;
+    width: 2.75rem;
+    border-top-right-radius: 1rem;
+    border-bottom-right-radius: 1rem;
+    // TODO: move colors to variables
+    text-align: center;
+    color: #f3f3f3;
+    background-color: black;
+  }
+  .arrow-up-right {
+    position: absolute;
+    right: 0;
+    top: 0;
   }
   a {
     color: inherit;
