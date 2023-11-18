@@ -5,30 +5,35 @@
       href: "/graphic-design/hermes",
       title: "hermes",
       year: 2021,
+      corner: "bi",
     },
     {
       description: "a tree discovery website",
       href: "/graphic-design/stromy-trebonska",
       title: "stromy třeboňska",
       year: 2023,
+      corner: "uiux",
     },
     {
       description: "a sneaker brand",
       href: "/graphic-design/hermes",
       title: "hermes",
       year: 2021,
+      corner: "bi",
     },
     {
       description: "a tree discovery website",
       href: "/graphic-design/stromy-trebonska",
       title: "stromy třeboňska",
       year: 2023,
+      corner: "uiux",
     },
     {
       description: "a sneaker brand",
       href: "/graphic-design/hermes",
       title: "hermes",
       year: 2021,
+      corner: "bi",
     },
   ];
 </script>
@@ -49,6 +54,15 @@
           height="40px"
           src="/assets/arrow-up-right.svg"
         />
+        {#if box.corner}
+          <img
+            class="corner"
+            alt="Corner graphics inidicating the type of the work done"
+            width="80px"
+            height="80px"
+            src="/ui/partials/graphic-design/curvy-titles-{box.corner}.svg"
+          />
+        {/if}
       </div>
     </a>
   {/each}
@@ -113,6 +127,11 @@
     position: absolute;
     right: 0;
     top: 0;
+  }
+  .corner {
+    position: absolute;
+    right: -1.8rem;
+    top: -1.8rem;
   }
   a {
     color: inherit;
