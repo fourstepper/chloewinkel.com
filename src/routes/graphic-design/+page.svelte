@@ -112,9 +112,9 @@
   }
   .year-tag {
     position: absolute;
-    right: -3rem;
+    right: -2.75rem;
     bottom: 0.5rem;
-    width: 3rem;
+    width: 2.75rem;
     line-height: 1.5rem;
     border-top-right-radius: 1rem;
     border-bottom-right-radius: 1rem;
@@ -124,11 +124,13 @@
     background-color: black;
   }
   .arrow-up-right {
+    font-size: 0;
     position: absolute;
     right: 0;
     top: 0;
   }
   .corner {
+    font-size: 0;
     position: absolute;
     right: -1.8rem;
     top: -1.8rem;

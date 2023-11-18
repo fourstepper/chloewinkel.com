@@ -4,6 +4,7 @@
 </script>
 
 <svelte:head>
+  <link href="https://fonts.googleapis.com/css?family=Syne" rel="stylesheet" />
   <title>Chloe Winkel</title>
 </svelte:head>
 
