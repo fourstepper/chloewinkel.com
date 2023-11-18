@@ -98,9 +98,10 @@
   }
   .year-tag {
     position: absolute;
-    right: -2.75rem;
+    right: -3rem;
     bottom: 0.5rem;
-    width: 2.75rem;
+    width: 3rem;
+    line-height: 1.5rem;
     border-top-right-radius: 1rem;
     border-bottom-right-radius: 1rem;
     // TODO: move colors to variables
