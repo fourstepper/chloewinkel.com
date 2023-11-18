@@ -3,4 +3,5 @@ interface ShowcaseBox {
   description: string;
   year: number;
   href: string;
+  corner?: string;
 }

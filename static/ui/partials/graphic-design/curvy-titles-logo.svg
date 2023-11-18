@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg id="Layer_1" data-name="Layer 1" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 100 100">
+  <defs>
+    <style>
+      .cls-1 {
+        fill: #d52500;
+        font-family: Superclarendon-BoldItalic, Superclarendon;
+        font-size: 16.01px;
+        font-style: italic;
+        font-weight: 700;
+      }
+    </style>
+  </defs>
+  <text class="cls-1" transform="translate(60.86 17.75) rotate(25.12)"><tspan x="0" y="0">l</tspan></text>
+  <text class="cls-1" transform="translate(66.8 20.25) rotate(37.82)"><tspan x="0" y="0">o</tspan></text>
+  <text class="cls-1" transform="translate(74.72 26.07) rotate(54.58)"><tspan x="0" y="0">g</tspan></text>
+  <text class="cls-1" transform="translate(81.6 35.82) rotate(71.44)"><tspan x="0" y="0">o</tspan></text>
+  <text class="cls-1" transform="translate(179.59 17.54) rotate(30.25)"><tspan x="0" y="0">u</tspan></text>
+  <text class="cls-1" transform="translate(189.89 23.87) rotate(44.53)"><tspan x="0" y="0">i</tspan></text>
+  <text class="cls-1" transform="translate(194.58 28.39) rotate(54.88)"><tspan x="0" y="0">/</tspan></text>
+  <text class="cls-1" transform="translate(198.82 33.68) rotate(69.54)"><tspan x="0" y="0">u</tspan></text>
+  <text class="cls-1" transform="translate(203.07 44.91) rotate(87.55)"><tspan x="0" y="0">x</tspan></text>
+</svg>

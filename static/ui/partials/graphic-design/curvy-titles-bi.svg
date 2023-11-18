@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg id="Layer_1" data-name="Layer 1" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 100 100">
+  <defs>
+    <style>
+      .cls-1 {
+        fill: #d52500;
+        font-family: Superclarendon-BoldItalic, Superclarendon;
+        font-size: 16.01px;
+        font-style: italic;
+        font-weight: 700;
+      }
+    </style>
+  </defs>
+  <text class="cls-1" transform="translate(5.79 15.78)"><tspan x="0" y="0">b</tspan><tspan x="11.41" y="0">r</tspan><tspan x="21.82" y="0">a</tspan></text>
+  <text class="cls-1" transform="translate(39.17 15.51) rotate(2.77)"><tspan x="0" y="0">n</tspan></text>
+  <text class="cls-1" transform="translate(51.11 15.97) rotate(20.42)"><tspan x="0" y="0">d</tspan></text>
+  <text class="cls-1" transform="translate(61.73 20.23) rotate(33.35)"><tspan x="0" y="0"> </tspan></text>
+  <text class="cls-1" transform="translate(66.22 23.08) rotate(42.57)"><tspan x="0" y="0">i</tspan></text>
+  <text class="cls-1" transform="translate(71.2 27.15) rotate(56.34)"><tspan x="0" y="0">d</tspan></text>
+  <text class="cls-1" transform="translate(77.47 36.6) rotate(72.54)"><tspan x="0" y="0">e</tspan></text>
+  <text class="cls-1" transform="translate(80.57 45.6) rotate(89.07)"><tspan x="0" y="0">n</tspan></text>
+  <text class="cls-1" transform="translate(80.68 58.45) rotate(90)"><tspan x="0" y="0">t</tspan><tspan x="7.71" y="0">i</tspan><tspan x="14.72" y="0">t</tspan><tspan x="22.45" y="0">y</tspan></text>
+  <text class="cls-1" transform="translate(180.86 17.75) rotate(25.12)"><tspan x="0" y="0">l</tspan></text>
+  <text class="cls-1" transform="translate(186.8 20.25) rotate(37.82)"><tspan x="0" y="0">o</tspan></text>
+  <text class="cls-1" transform="translate(194.72 26.07) rotate(54.58)"><tspan x="0" y="0">g</tspan></text>
+  <text class="cls-1" transform="translate(201.6 35.82) rotate(71.44)"><tspan x="0" y="0">o</tspan></text>
+</svg>

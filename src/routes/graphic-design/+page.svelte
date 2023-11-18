@@ -5,30 +5,35 @@
       href: "/graphic-design/hermes",
       title: "hermes",
       year: 2021,
+      corner: "bi",
     },
     {
       description: "a tree discovery website",
       href: "/graphic-design/stromy-trebonska",
       title: "stromy třeboňska",
       year: 2023,
+      corner: "uiux",
     },
     {
       description: "a sneaker brand",
       href: "/graphic-design/hermes",
       title: "hermes",
       year: 2021,
+      corner: "bi",
     },
     {
       description: "a tree discovery website",
       href: "/graphic-design/stromy-trebonska",
       title: "stromy třeboňska",
       year: 2023,
+      corner: "uiux",
     },
     {
       description: "a sneaker brand",
       href: "/graphic-design/hermes",
       title: "hermes",
       year: 2021,
+      corner: "bi",
     },
   ];
 </script>
@@ -47,8 +52,17 @@
           alt="An arrow pointing to to the top right corner of each box"
           width="40px"
           height="40px"
-          src="/assets/arrow-up-right.svg"
+          src="/ui/partials/graphic-design/arrow-up-right.svg"
         />
+        {#if box.corner}
+          <img
+            class="corner"
+            alt="Corner graphics inidicating the type of the work done"
+            width="80px"
+            height="80px"
+            src="/ui/partials/graphic-design/curvy-titles-{box.corner}.svg"
+          />
+        {/if}
       </div>
     </a>
   {/each}
@@ -98,9 +112,10 @@
   }
   .year-tag {
     position: absolute;
-    right: -2.75rem;
+    right: -3rem;
     bottom: 0.5rem;
-    width: 2.75rem;
+    width: 3rem;
+    line-height: 1.5rem;
     border-top-right-radius: 1rem;
     border-bottom-right-radius: 1rem;
     // TODO: move colors to variables
@@ -112,6 +127,11 @@
     position: absolute;
     right: 0;
     top: 0;
+  }
+  .corner {
+    position: absolute;
+    right: -1.8rem;
+    top: -1.8rem;
   }
   a {
     color: inherit;
