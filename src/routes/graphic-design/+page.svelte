@@ -52,7 +52,7 @@
           alt="An arrow pointing to to the top right corner of each box"
           width="40px"
           height="40px"
-          src="/assets/arrow-up-right.svg"
+          src="/ui/partials/graphic-design/arrow-up-right.svg"
         />
         {#if box.corner}
           <img
