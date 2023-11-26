@@ -1,27 +1,27 @@
 # chloewinkel.com
 
-This repository is a SvelteKit project that runs https://chloewinkel.com (or rather, https://chloewinkel-v2.vercel.app/ for now)
+This repository is a SvelteKit project that runs https://chloewinkel.com.
 
 [![status-badge](https://ci.codeberg.org/api/badges/12599/status.svg)](https://ci.codeberg.org/repos/12599)
 
 ## Developing
 
-Install [`just`](https://github.com/casey/just)
+Install `npm`
 
 ```bash
-just dev
+npm run dev
 ```
 
 ## Building
 
 ```bash
-just build
+npm run build
 ```
 
 ## Build and preview locally
 
 ```bash
-just run
+npm run build && npm run preview
 ```
 
 ## Legal
