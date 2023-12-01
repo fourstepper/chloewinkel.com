@@ -27,9 +27,6 @@
 </div>
 
 <style lang="scss">
-  img {
-    font-size: 0;
-  }
   // base is 1024px and more
   .wrapper {
     margin-top: 4rem;

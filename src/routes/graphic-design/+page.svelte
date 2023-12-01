@@ -128,13 +128,11 @@
     background-color: black;
   }
   .arrow-up-right {
-    font-size: 0;
     position: absolute;
     right: 0;
     top: 0;
   }
   .corner {
-    font-size: 0;
     position: absolute;
     right: -1.8rem;
     top: -1.8rem;
