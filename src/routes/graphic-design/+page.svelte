@@ -81,7 +81,6 @@
     place-content: center;
     column-gap: 4rem;
     row-gap: 2rem;
-    margin-top: 4rem;
     line-height: 1.2;
   }
   @media screen and (min-width: 1280px) {
