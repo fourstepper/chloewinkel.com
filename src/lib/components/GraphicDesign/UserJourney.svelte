@@ -4,13 +4,20 @@
     <img
       class="arrow-right-down-curved"
       alt="An arrow pointing from left upper to right lower"
-      width="120px"
-      height="120x"
+      width="140px"
+      height="140px"
       src="/ui/partials/graphic-design/red-arrow-right-down-curved.svg"
     />
   </div>
   <div class="bottom">
     <p>exploration & moodboards</p>
+    <img
+      class="steps-up"
+      alt="An arrow pointing from left upper to right lower"
+      width="140px"
+      height="140px"
+      src="/ui/partials/graphic-design/personal-progress-arrows-04.svg"
+    />
   </div>
   <div>
     <p>sketches</p>
@@ -27,25 +34,30 @@
 </div>
 
 <style lang="scss">
-  // base is 1024px and more
   .wrapper {
     margin-top: 4rem;
+    font-size: 1.2rem;
     display: flex;
     flex-direction: row;
     place-content: center;
     div {
       position: relative;
-      height: 180px;
+      margin: 1rem;
+      height: 160px;
       width: 120px;
-      margin: 0 1rem 0 1rem;
       p {
         position: absolute;
         margin: 0;
       }
-      img {
+      .arrow-right-down-curved {
         position: absolute;
         right: -110px;
-        bottom: 60px;
+        bottom: 40px;
+      }
+      .steps-up {
+        position: absolute;
+        right: -50px;
+        bottom: 42px;
       }
     }
     .bottom {
