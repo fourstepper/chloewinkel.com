@@ -1,4 +1,5 @@
 <script lang="ts">
+  import UserJourney from "$lib/components/GraphicDesign/UserJourney.svelte";
   const boxes: ShowcaseBox[] = [
     {
       description: "a sneaker brand",
@@ -40,33 +41,37 @@
 
 <h1>Graphic Design</h1>
 
-<div class="wrapper">
-  {#each boxes as box}
-    <a href={box.href}>
-      <div class="box">
-        <div class="title">{box.title}</div>
-        <div class="description">{box.description}</div>
-        <div class="year-tag">{box.year}</div>
-        <img
-          class="arrow-up-right"
-          alt="An arrow pointing to to the top right corner of each box"
-          width="40px"
-          height="40px"
-          src="/ui/partials/graphic-design/arrow-up-right.svg"
-        />
-        {#if box.corner}
+<div>
+  <div class="wrapper">
+    {#each boxes as box}
+      <a href={box.href}>
+        <div class="box">
+          <div class="title">{box.title}</div>
+          <div class="description">{box.description}</div>
+          <div class="year-tag">{box.year}</div>
           <img
-            class="corner"
-            alt="Corner graphics inidicating the type of the work done"
-            width="80px"
-            height="80px"
-            src="/ui/partials/graphic-design/curvy-titles-{box.corner}.svg"
+            class="arrow-up-right"
+            alt="An arrow pointing to to the top right corner of each box"
+            width="40px"
+            height="40px"
+            src="/ui/partials/graphic-design/arrow-up-right.svg"
           />
-        {/if}
-      </div>
-    </a>
-  {/each}
+          {#if box.corner}
+            <img
+              class="corner"
+              alt="Corner graphics inidicating the type of the work done"
+              width="80px"
+              height="80px"
+              src="/ui/partials/graphic-design/curvy-titles-{box.corner}.svg"
+            />
+          {/if}
+        </div>
+      </a>
+    {/each}
+  </div>
 </div>
+
+<UserJourney />
 
 <style lang="scss">
   .wrapper {
@@ -76,7 +81,6 @@
     place-content: center;
     column-gap: 4rem;
     row-gap: 2rem;
-    margin-top: 4rem;
     line-height: 1.2;
   }
   @media screen and (min-width: 1280px) {
@@ -124,13 +128,11 @@
     background-color: black;
   }
   .arrow-up-right {
-    font-size: 0;
     position: absolute;
     right: 0;
     top: 0;
   }
   .corner {
-    font-size: 0;
     position: absolute;
     right: -1.8rem;
     top: -1.8rem;
